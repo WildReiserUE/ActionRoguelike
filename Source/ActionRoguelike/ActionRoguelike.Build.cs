@@ -11,7 +11,12 @@ public class ActionRoguelike : ModuleRules
 		// Simplify the include paths in our source files
 		PublicIncludePaths.AddRange(
 			new string[] {
-				"ActionRoguelike"
+				"ActionRoguelike",
+				"ActionRoguelike/AI",
+				"ActionRoguelike/Actions",
+				"ActionRoguelike/Components",
+				"ActionRoguelike/Powerup",
+				"ActionRoguelike/Subsystems"
 			}
 		);
 	
